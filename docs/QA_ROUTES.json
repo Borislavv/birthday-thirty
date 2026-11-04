@@ -1,0 +1,229 @@
+{
+  "target": "/Users/admin/dev/wife_game/index.html",
+  "previewURL": "http://127.0.0.1:8765/index.html",
+  "protocol": "http:",
+  "startedAt": "2026-11-04T18:29:26.884Z",
+  "browser": "Chromium",
+  "errors": [],
+  "results": [
+    {
+      "route": "forest",
+      "visitedNodes": 64,
+      "result": "PASS"
+    },
+    {
+      "route": "wonderland",
+      "visitedNodes": 74,
+      "result": "PASS"
+    }
+  ],
+  "wrongOptions": [
+    {
+      "route": "forest",
+      "question": "p049",
+      "option": 0,
+      "feedback": "forest-wrong-1",
+      "result": "PASS"
+    },
+    {
+      "route": "forest",
+      "question": "p049",
+      "option": 2,
+      "feedback": "forest-wrong-1",
+      "result": "PASS"
+    },
+    {
+      "route": "forest",
+      "question": "p069",
+      "option": 0,
+      "feedback": "forest-wrong-2",
+      "result": "PASS"
+    },
+    {
+      "route": "forest",
+      "question": "p069",
+      "option": 2,
+      "feedback": "forest-wrong-2",
+      "result": "PASS"
+    },
+    {
+      "route": "forest",
+      "question": "p088",
+      "option": 1,
+      "feedback": "forest-wrong-3",
+      "result": "PASS"
+    },
+    {
+      "route": "forest",
+      "question": "p088",
+      "option": 2,
+      "feedback": "forest-wrong-3",
+      "result": "PASS"
+    },
+    {
+      "route": "wonderland",
+      "question": "hat-choice",
+      "option": 0,
+      "feedback": "wonderland-wrong-1",
+      "result": "PASS"
+    },
+    {
+      "route": "wonderland",
+      "question": "hat-choice",
+      "option": 2,
+      "feedback": "wonderland-wrong-1",
+      "result": "PASS"
+    },
+    {
+      "route": "wonderland",
+      "question": "bubble-choice",
+      "option": 1,
+      "feedback": "wonderland-wrong-2",
+      "result": "PASS"
+    },
+    {
+      "route": "wonderland",
+      "question": "bubble-choice",
+      "option": 2,
+      "feedback": "wonderland-wrong-2",
+      "result": "PASS"
+    }
+  ],
+  "royalPaths": [
+    {
+      "picks": [
+        0,
+        0,
+        0
+      ],
+      "visitedNodes": 67,
+      "result": "PASS"
+    },
+    {
+      "picks": [
+        0,
+        0,
+        1
+      ],
+      "visitedNodes": 67,
+      "result": "PASS"
+    },
+    {
+      "picks": [
+        0,
+        1,
+        0
+      ],
+      "visitedNodes": 67,
+      "result": "PASS"
+    },
+    {
+      "picks": [
+        0,
+        1,
+        1
+      ],
+      "visitedNodes": 67,
+      "result": "PASS"
+    },
+    {
+      "picks": [
+        0,
+        2,
+        0
+      ],
+      "visitedNodes": 67,
+      "result": "PASS"
+    },
+    {
+      "picks": [
+        0,
+        2,
+        1
+      ],
+      "visitedNodes": 67,
+      "result": "PASS"
+    },
+    {
+      "picks": [
+        1,
+        0,
+        0
+      ],
+      "visitedNodes": 67,
+      "result": "PASS"
+    },
+    {
+      "picks": [
+        1,
+        0,
+        1
+      ],
+      "visitedNodes": 67,
+      "result": "PASS"
+    },
+    {
+      "picks": [
+        1,
+        1,
+        0
+      ],
+      "visitedNodes": 67,
+      "result": "PASS"
+    },
+    {
+      "picks": [
+        1,
+        1,
+        1
+      ],
+      "visitedNodes": 67,
+      "result": "PASS"
+    },
+    {
+      "picks": [
+        1,
+        2,
+        0
+      ],
+      "visitedNodes": 67,
+      "result": "PASS"
+    },
+    {
+      "picks": [
+        1,
+        2,
+        1
+      ],
+      "visitedNodes": 67,
+      "result": "PASS"
+    }
+  ],
+  "checks": {
+    "selfContainedHTMLStructure": true,
+    "scopedLoopbackLaunch": true,
+    "resumeFromWrongAndCorrect": true,
+    "allTwelveRoyalCombinations": true,
+    "noChoiceBypass": true,
+    "allTenWrongOptionsRetried": true,
+    "identicalExactFullFinale": true,
+    "restartResetsReadHistoryChoicesAndSave": true,
+    "mobile320PaginationExact": {
+      "pages": 2,
+      "sourceCharacters": 270,
+      "reloadOffset": 152
+    },
+    "skipReadResetsOffsetForUnreadPage": {
+      "from": "p203",
+      "to": "p205",
+      "oldOffset": 134,
+      "newOffset": 0,
+      "firstPageCharacters": 92
+    }
+  },
+  "result": "PASS",
+  "deliverableSHA256": "ef673374ad70799fdaa2aad8b44c7a4b8590aadc3e7c1ac68d892a589f2f033e",
+  "browserVersion": "157.0.8103.38",
+  "previewSHA256": "ef673374ad70799fdaa2aad8b44c7a4b8590aadc3e7c1ac68d892a589f2f033e",
+  "finishedAt": "2026-11-04T18:30:10.915Z"
+}

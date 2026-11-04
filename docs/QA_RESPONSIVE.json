@@ -1,0 +1,2742 @@
+{
+  "checkedAt": "2026-11-04T18:29:27.966Z",
+  "url": "http://127.0.0.1:8765/index.html",
+  "indexSha256": "ef673374ad70799fdaa2aad8b44c7a4b8590aadc3e7c1ac68d892a589f2f033e",
+  "results": [
+    {
+      "viewport": "desktop",
+      "label": "title",
+      "screenshot": "qa/title-desktop.png",
+      "screen": "title",
+      "current": "p002",
+      "body": {
+        "scrollWidth": 1440,
+        "scrollHeight": 1000,
+        "width": 1440,
+        "height": 1000
+      },
+      "buttons": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "rect": {
+            "x": 60.46875,
+            "y": 32,
+            "width": 190.84375,
+            "height": 48,
+            "bottom": 80,
+            "right": 251.3125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "soundBtn",
+          "disabled": false,
+          "rect": {
+            "x": 1230.53125,
+            "y": 34.5,
+            "width": 43,
+            "height": 43,
+            "bottom": 77.5,
+            "right": 1273.53125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "fullBtn",
+          "disabled": false,
+          "rect": {
+            "x": 1283.53125,
+            "y": 34.5,
+            "width": 43,
+            "height": 43,
+            "bottom": 77.5,
+            "right": 1326.53125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "menuBtn",
+          "disabled": false,
+          "rect": {
+            "x": 1336.53125,
+            "y": 34.5,
+            "width": 43,
+            "height": 43,
+            "bottom": 77.5,
+            "right": 1379.53125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "startBtn",
+          "disabled": false,
+          "rect": {
+            "x": 108,
+            "y": 691.125,
+            "width": 225.546875,
+            "height": 58,
+            "bottom": 749.125,
+            "right": 333.546875
+          },
+          "scrollParents": []
+        }
+      ],
+      "surfaces": [
+        {
+          "rect": {
+            "x": -30,
+            "y": 0,
+            "width": 1500,
+            "height": 1000,
+            "bottom": 1000,
+            "right": 1470
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1000,
+            "bottom": 1000,
+            "right": 1440
+          },
+          "backgroundSize": "1500px 1000px",
+          "backgroundPosition": "0px 0px",
+          "key": "title"
+        }
+      ],
+      "text": {
+        "length": 0,
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "dialogue": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "end": {
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "inaccessible": [],
+      "horizontalPageOverflow": false
+    },
+    {
+      "viewport": "desktop",
+      "label": "outfits",
+      "screenshot": "qa/outfits-desktop.png",
+      "screen": "outfits",
+      "current": "outfits",
+      "body": {
+        "scrollWidth": 1440,
+        "scrollHeight": 1000,
+        "width": 1440,
+        "height": 1000
+      },
+      "buttons": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "rect": {
+            "x": 60.46875,
+            "y": 32,
+            "width": 190.84375,
+            "height": 48,
+            "bottom": 80,
+            "right": 251.3125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "soundBtn",
+          "disabled": false,
+          "rect": {
+            "x": 1230.53125,
+            "y": 34.5,
+            "width": 43,
+            "height": 43,
+            "bottom": 77.5,
+            "right": 1273.53125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "fullBtn",
+          "disabled": false,
+          "rect": {
+            "x": 1283.53125,
+            "y": 34.5,
+            "width": 43,
+            "height": 43,
+            "bottom": 77.5,
+            "right": 1326.53125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "menuBtn",
+          "disabled": false,
+          "rect": {
+            "x": 1336.53125,
+            "y": 34.5,
+            "width": 43,
+            "height": 43,
+            "bottom": 77.5,
+            "right": 1379.53125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "forest",
+          "disabled": false,
+          "rect": {
+            "x": 145,
+            "y": 244.234375,
+            "width": 368.65625,
+            "height": 544.09375,
+            "bottom": 788.328125,
+            "right": 513.65625
+          },
+          "scrollParents": [
+            {
+              "tag": "outfitScreen",
+              "rect": {
+                "x": 0,
+                "y": 112,
+                "width": 1440,
+                "height": 888,
+                "bottom": 1000,
+                "right": 1440
+              },
+              "x": false,
+              "y": false
+            }
+          ]
+        },
+        {
+          "id": "wonderland",
+          "disabled": false,
+          "rect": {
+            "x": 535.65625,
+            "y": 244.234375,
+            "width": 368.671875,
+            "height": 544.09375,
+            "bottom": 788.328125,
+            "right": 904.328125
+          },
+          "scrollParents": [
+            {
+              "tag": "outfitScreen",
+              "rect": {
+                "x": 0,
+                "y": 112,
+                "width": 1440,
+                "height": 888,
+                "bottom": 1000,
+                "right": 1440
+              },
+              "x": false,
+              "y": false
+            }
+          ]
+        },
+        {
+          "id": "versailles",
+          "disabled": false,
+          "rect": {
+            "x": 926.328125,
+            "y": 244.234375,
+            "width": 368.65625,
+            "height": 544.09375,
+            "bottom": 788.328125,
+            "right": 1294.984375
+          },
+          "scrollParents": [
+            {
+              "tag": "outfitScreen",
+              "rect": {
+                "x": 0,
+                "y": 112,
+                "width": 1440,
+                "height": 888,
+                "bottom": 1000,
+                "right": 1440
+              },
+              "x": false,
+              "y": false
+            }
+          ]
+        }
+      ],
+      "surfaces": [
+        {
+          "rect": {
+            "x": -30,
+            "y": 0,
+            "width": 1500,
+            "height": 1000,
+            "bottom": 1000,
+            "right": 1470
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1000,
+            "bottom": 1000,
+            "right": 1440
+          },
+          "backgroundSize": "1500px 1000px",
+          "backgroundPosition": "0px 0px",
+          "key": "outfits"
+        }
+      ],
+      "text": {
+        "length": 0,
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "dialogue": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "end": {
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "inaccessible": [],
+      "horizontalPageOverflow": false
+    },
+    {
+      "viewport": "desktop",
+      "label": "dialogue",
+      "screenshot": "qa/dialogue-desktop.png",
+      "screen": "game",
+      "current": "p203",
+      "body": {
+        "scrollWidth": 1440,
+        "scrollHeight": 1000,
+        "width": 1440,
+        "height": 1000
+      },
+      "buttons": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "rect": {
+            "x": 60.46875,
+            "y": 32,
+            "width": 190.84375,
+            "height": 48,
+            "bottom": 80,
+            "right": 251.3125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "soundBtn",
+          "disabled": false,
+          "rect": {
+            "x": 1230.53125,
+            "y": 34.5,
+            "width": 43,
+            "height": 43,
+            "bottom": 77.5,
+            "right": 1273.53125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "fullBtn",
+          "disabled": false,
+          "rect": {
+            "x": 1283.53125,
+            "y": 34.5,
+            "width": 43,
+            "height": 43,
+            "bottom": 77.5,
+            "right": 1326.53125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "menuBtn",
+          "disabled": false,
+          "rect": {
+            "x": 1336.53125,
+            "y": 34.5,
+            "width": 43,
+            "height": 43,
+            "bottom": 77.5,
+            "right": 1379.53125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "historyBtn",
+          "disabled": false,
+          "rect": {
+            "x": 278,
+            "y": 917,
+            "width": 60.125,
+            "height": 25,
+            "bottom": 942,
+            "right": 338.125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "nextBtn",
+          "disabled": false,
+          "rect": {
+            "x": 1069.65625,
+            "y": 912,
+            "width": 92.34375,
+            "height": 35,
+            "bottom": 947,
+            "right": 1162
+          },
+          "scrollParents": []
+        }
+      ],
+      "surfaces": [
+        {
+          "rect": {
+            "x": -30,
+            "y": 0,
+            "width": 1500,
+            "height": 1000,
+            "bottom": 1000,
+            "right": 1470
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1000,
+            "bottom": 1000,
+            "right": 1440
+          },
+          "backgroundSize": "3000px 2000px",
+          "backgroundPosition": "-1500px 0px",
+          "key": "mug"
+        }
+      ],
+      "text": {
+        "length": 178,
+        "clientHeight": 102,
+        "scrollHeight": 102
+      },
+      "dialogue": {
+        "x": 240,
+        "y": 714.953125,
+        "width": 960,
+        "height": 247.046875,
+        "bottom": 962,
+        "right": 1200
+      },
+      "end": {
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "inaccessible": [],
+      "horizontalPageOverflow": false
+    },
+    {
+      "viewport": "desktop",
+      "label": "system",
+      "screenshot": "qa/system-desktop.png",
+      "screen": "game",
+      "current": "p040",
+      "body": {
+        "scrollWidth": 1440,
+        "scrollHeight": 1000,
+        "width": 1440,
+        "height": 1000
+      },
+      "buttons": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "rect": {
+            "x": 60.46875,
+            "y": 32,
+            "width": 190.84375,
+            "height": 48,
+            "bottom": 80,
+            "right": 251.3125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "soundBtn",
+          "disabled": false,
+          "rect": {
+            "x": 1230.53125,
+            "y": 34.5,
+            "width": 43,
+            "height": 43,
+            "bottom": 77.5,
+            "right": 1273.53125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "fullBtn",
+          "disabled": false,
+          "rect": {
+            "x": 1283.53125,
+            "y": 34.5,
+            "width": 43,
+            "height": 43,
+            "bottom": 77.5,
+            "right": 1326.53125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "menuBtn",
+          "disabled": false,
+          "rect": {
+            "x": 1336.53125,
+            "y": 34.5,
+            "width": 43,
+            "height": 43,
+            "bottom": 77.5,
+            "right": 1379.53125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "historyBtn",
+          "disabled": false,
+          "rect": {
+            "x": 295,
+            "y": 917,
+            "width": 60.125,
+            "height": 25,
+            "bottom": 942,
+            "right": 355.125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "nextBtn",
+          "disabled": false,
+          "rect": {
+            "x": 1052.65625,
+            "y": 912,
+            "width": 92.34375,
+            "height": 35,
+            "bottom": 947,
+            "right": 1145
+          },
+          "scrollParents": []
+        }
+      ],
+      "surfaces": [
+        {
+          "rect": {
+            "x": -30,
+            "y": 0,
+            "width": 1500,
+            "height": 1000,
+            "bottom": 1000,
+            "right": 1470
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1000,
+            "bottom": 1000,
+            "right": 1440
+          },
+          "backgroundSize": "3000px 2000px",
+          "backgroundPosition": "-1500px 0px",
+          "key": "frog"
+        }
+      ],
+      "text": {
+        "length": 270,
+        "clientHeight": 238,
+        "scrollHeight": 238
+      },
+      "dialogue": {
+        "x": 240,
+        "y": 578.890625,
+        "width": 960,
+        "height": 383.109375,
+        "bottom": 962,
+        "right": 1200
+      },
+      "end": {
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "inaccessible": [],
+      "horizontalPageOverflow": false
+    },
+    {
+      "viewport": "desktop",
+      "label": "choice",
+      "screenshot": "qa/choice-desktop.png",
+      "screen": "game",
+      "current": "hat-choice",
+      "body": {
+        "scrollWidth": 1440,
+        "scrollHeight": 1000,
+        "width": 1440,
+        "height": 1000
+      },
+      "buttons": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "rect": {
+            "x": 60.46875,
+            "y": 32,
+            "width": 190.84375,
+            "height": 48,
+            "bottom": 80,
+            "right": 251.3125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "soundBtn",
+          "disabled": false,
+          "rect": {
+            "x": 1230.53125,
+            "y": 34.5,
+            "width": 43,
+            "height": 43,
+            "bottom": 77.5,
+            "right": 1273.53125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "fullBtn",
+          "disabled": false,
+          "rect": {
+            "x": 1283.53125,
+            "y": 34.5,
+            "width": 43,
+            "height": 43,
+            "bottom": 77.5,
+            "right": 1326.53125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "menuBtn",
+          "disabled": false,
+          "rect": {
+            "x": 1336.53125,
+            "y": 34.5,
+            "width": 43,
+            "height": 43,
+            "bottom": 77.5,
+            "right": 1379.53125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "0",
+          "disabled": false,
+          "rect": {
+            "x": 278,
+            "y": 606,
+            "width": 884,
+            "height": 91,
+            "bottom": 697,
+            "right": 1162
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "1",
+          "disabled": false,
+          "rect": {
+            "x": 278,
+            "y": 706,
+            "width": 884,
+            "height": 91,
+            "bottom": 797,
+            "right": 1162
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "2",
+          "disabled": false,
+          "rect": {
+            "x": 278,
+            "y": 806,
+            "width": 884,
+            "height": 91,
+            "bottom": 897,
+            "right": 1162
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "historyBtn",
+          "disabled": false,
+          "rect": {
+            "x": 278,
+            "y": 922,
+            "width": 60.125,
+            "height": 25,
+            "bottom": 947,
+            "right": 338.125
+          },
+          "scrollParents": []
+        }
+      ],
+      "surfaces": [
+        {
+          "rect": {
+            "x": -30,
+            "y": 0,
+            "width": 1500,
+            "height": 1000,
+            "bottom": 1000,
+            "right": 1470
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1000,
+            "bottom": 1000,
+            "right": 1440
+          },
+          "backgroundSize": "3000px 2000px",
+          "backgroundPosition": "0px 0px",
+          "key": "hats"
+        }
+      ],
+      "text": {
+        "length": 0,
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "dialogue": {
+        "x": 240,
+        "y": 563,
+        "width": 960,
+        "height": 399,
+        "bottom": 962,
+        "right": 1200
+      },
+      "end": {
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "inaccessible": [],
+      "horizontalPageOverflow": false
+    },
+    {
+      "viewport": "desktop",
+      "label": "end",
+      "screenshot": "qa/end-desktop.png",
+      "screen": "end",
+      "current": "p341",
+      "body": {
+        "scrollWidth": 1440,
+        "scrollHeight": 1000,
+        "width": 1440,
+        "height": 1000
+      },
+      "buttons": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "rect": {
+            "x": 60.46875,
+            "y": 32,
+            "width": 190.84375,
+            "height": 48,
+            "bottom": 80,
+            "right": 251.3125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "soundBtn",
+          "disabled": false,
+          "rect": {
+            "x": 1230.53125,
+            "y": 34.5,
+            "width": 43,
+            "height": 43,
+            "bottom": 77.5,
+            "right": 1273.53125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "fullBtn",
+          "disabled": false,
+          "rect": {
+            "x": 1283.53125,
+            "y": 34.5,
+            "width": 43,
+            "height": 43,
+            "bottom": 77.5,
+            "right": 1326.53125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "menuBtn",
+          "disabled": false,
+          "rect": {
+            "x": 1336.53125,
+            "y": 34.5,
+            "width": 43,
+            "height": 43,
+            "bottom": 77.5,
+            "right": 1379.53125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "restartBtn",
+          "disabled": false,
+          "rect": {
+            "x": 579.40625,
+            "y": 674.640625,
+            "width": 281.171875,
+            "height": 58,
+            "bottom": 732.640625,
+            "right": 860.578125
+          },
+          "scrollParents": [
+            {
+              "tag": "endScreen",
+              "rect": {
+                "x": 0,
+                "y": 112,
+                "width": 1440,
+                "height": 888,
+                "bottom": 1000,
+                "right": 1440
+              },
+              "x": false,
+              "y": false
+            }
+          ]
+        }
+      ],
+      "surfaces": [
+        {
+          "rect": {
+            "x": -30,
+            "y": 0,
+            "width": 1500,
+            "height": 1000,
+            "bottom": 1000,
+            "right": 1470
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 1000,
+            "bottom": 1000,
+            "right": 1440
+          },
+          "backgroundSize": "3000px 2000px",
+          "backgroundPosition": "0px -1000px",
+          "key": "congratulations"
+        }
+      ],
+      "text": {
+        "length": 0,
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "dialogue": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "end": {
+        "clientHeight": 888,
+        "scrollHeight": 888
+      },
+      "inaccessible": [],
+      "horizontalPageOverflow": false
+    },
+    {
+      "viewport": "mobile",
+      "label": "title",
+      "screenshot": "qa/title-mobile.png",
+      "screen": "title",
+      "current": "p002",
+      "body": {
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "width": 390,
+        "height": 844
+      },
+      "buttons": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "rect": {
+            "x": 20,
+            "y": 21.5,
+            "width": 133.953125,
+            "height": 34,
+            "bottom": 55.5,
+            "right": 153.953125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "soundBtn",
+          "disabled": false,
+          "rect": {
+            "x": 297,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 330
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "menuBtn",
+          "disabled": false,
+          "rect": {
+            "x": 337,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 370
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "startBtn",
+          "disabled": false,
+          "rect": {
+            "x": 26,
+            "y": 725.40625,
+            "width": 191.78125,
+            "height": 50,
+            "bottom": 775.40625,
+            "right": 217.78125
+          },
+          "scrollParents": []
+        }
+      ],
+      "surfaces": [
+        {
+          "rect": {
+            "x": -604.4375,
+            "y": 0,
+            "width": 1266,
+            "height": 844,
+            "bottom": 844,
+            "right": 661.5625
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 844,
+            "bottom": 844,
+            "right": 390
+          },
+          "backgroundSize": "1266px 844px",
+          "backgroundPosition": "0px 0px",
+          "key": "title"
+        }
+      ],
+      "text": {
+        "length": 0,
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "dialogue": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "end": {
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "inaccessible": [],
+      "horizontalPageOverflow": false
+    },
+    {
+      "viewport": "mobile",
+      "label": "outfits",
+      "screenshot": "qa/outfits-mobile.png",
+      "screen": "outfits",
+      "current": "outfits",
+      "body": {
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "width": 390,
+        "height": 844
+      },
+      "buttons": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "rect": {
+            "x": 20,
+            "y": 21.5,
+            "width": 133.953125,
+            "height": 34,
+            "bottom": 55.5,
+            "right": 153.953125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "soundBtn",
+          "disabled": false,
+          "rect": {
+            "x": 297,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 330
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "menuBtn",
+          "disabled": false,
+          "rect": {
+            "x": 337,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 370
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "forest",
+          "disabled": false,
+          "rect": {
+            "x": 27,
+            "y": 205.171875,
+            "width": 268.796875,
+            "height": 487.890625,
+            "bottom": 693.0625,
+            "right": 295.796875
+          },
+          "scrollParents": [
+            {
+              "tag": "outfitCards",
+              "rect": {
+                "x": 0,
+                "y": 205.171875,
+                "width": 390,
+                "height": 502.890625,
+                "bottom": 708.0625,
+                "right": 390
+              },
+              "x": true,
+              "y": false
+            },
+            {
+              "tag": "outfitScreen",
+              "rect": {
+                "x": 0,
+                "y": 77,
+                "width": 390,
+                "height": 767,
+                "bottom": 844,
+                "right": 390
+              },
+              "x": false,
+              "y": false
+            }
+          ]
+        },
+        {
+          "id": "wonderland",
+          "disabled": false,
+          "rect": {
+            "x": 310.796875,
+            "y": 205.171875,
+            "width": 268.796875,
+            "height": 487.890625,
+            "bottom": 693.0625,
+            "right": 579.59375
+          },
+          "scrollParents": [
+            {
+              "tag": "outfitCards",
+              "rect": {
+                "x": 0,
+                "y": 205.171875,
+                "width": 390,
+                "height": 502.890625,
+                "bottom": 708.0625,
+                "right": 390
+              },
+              "x": true,
+              "y": false
+            },
+            {
+              "tag": "outfitScreen",
+              "rect": {
+                "x": 0,
+                "y": 77,
+                "width": 390,
+                "height": 767,
+                "bottom": 844,
+                "right": 390
+              },
+              "x": false,
+              "y": false
+            }
+          ]
+        },
+        {
+          "id": "versailles",
+          "disabled": false,
+          "rect": {
+            "x": 594.59375,
+            "y": 205.171875,
+            "width": 268.796875,
+            "height": 487.890625,
+            "bottom": 693.0625,
+            "right": 863.390625
+          },
+          "scrollParents": [
+            {
+              "tag": "outfitCards",
+              "rect": {
+                "x": 0,
+                "y": 205.171875,
+                "width": 390,
+                "height": 502.890625,
+                "bottom": 708.0625,
+                "right": 390
+              },
+              "x": true,
+              "y": false
+            },
+            {
+              "tag": "outfitScreen",
+              "rect": {
+                "x": 0,
+                "y": 77,
+                "width": 390,
+                "height": 767,
+                "bottom": 844,
+                "right": 390
+              },
+              "x": false,
+              "y": false
+            }
+          ]
+        }
+      ],
+      "surfaces": [
+        {
+          "rect": {
+            "x": -438,
+            "y": 0,
+            "width": 1266,
+            "height": 844,
+            "bottom": 844,
+            "right": 828
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 844,
+            "bottom": 844,
+            "right": 390
+          },
+          "backgroundSize": "1266px 844px",
+          "backgroundPosition": "0px 0px",
+          "key": "outfits"
+        }
+      ],
+      "text": {
+        "length": 0,
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "dialogue": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "end": {
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "inaccessible": [],
+      "horizontalPageOverflow": false
+    },
+    {
+      "viewport": "mobile",
+      "label": "dialogue",
+      "screenshot": "qa/dialogue-mobile.png",
+      "screen": "game",
+      "current": "p203",
+      "body": {
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "width": 390,
+        "height": 844
+      },
+      "buttons": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "rect": {
+            "x": 20,
+            "y": 21.5,
+            "width": 133.953125,
+            "height": 34,
+            "bottom": 55.5,
+            "right": 153.953125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "soundBtn",
+          "disabled": false,
+          "rect": {
+            "x": 297,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 330
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "menuBtn",
+          "disabled": false,
+          "rect": {
+            "x": 337,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 370
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "historyBtn",
+          "disabled": false,
+          "rect": {
+            "x": 37,
+            "y": 784,
+            "width": 53.3125,
+            "height": 25,
+            "bottom": 809,
+            "right": 90.3125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "nextBtn",
+          "disabled": false,
+          "rect": {
+            "x": 289.515625,
+            "y": 779,
+            "width": 63.484375,
+            "height": 35,
+            "bottom": 814,
+            "right": 353
+          },
+          "scrollParents": []
+        }
+      ],
+      "surfaces": [
+        {
+          "rect": {
+            "x": -469.640625,
+            "y": -21.09375,
+            "width": 1329.296875,
+            "height": 886.1875,
+            "bottom": 865.09375,
+            "right": 859.65625
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 844,
+            "bottom": 844,
+            "right": 390
+          },
+          "backgroundSize": "2658.6px 1772.4px",
+          "backgroundPosition": "-1329.3px 0px",
+          "key": "mug"
+        },
+        {
+          "rect": {
+            "x": 0,
+            "y": 192.5,
+            "width": 390,
+            "height": 260,
+            "bottom": 452.5,
+            "right": 390
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 844,
+            "bottom": 844,
+            "right": 390
+          },
+          "backgroundSize": "780px 520px",
+          "backgroundPosition": "-390px 0px",
+          "key": "mug"
+        }
+      ],
+      "text": {
+        "length": 178,
+        "clientHeight": 130,
+        "scrollHeight": 130
+      },
+      "dialogue": {
+        "x": 15,
+        "y": 573,
+        "width": 360,
+        "height": 251,
+        "bottom": 824,
+        "right": 375
+      },
+      "end": {
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "inaccessible": [],
+      "horizontalPageOverflow": false
+    },
+    {
+      "viewport": "mobile",
+      "label": "system",
+      "screenshot": "qa/system-mobile.png",
+      "screen": "game",
+      "current": "p040",
+      "body": {
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "width": 390,
+        "height": 844
+      },
+      "buttons": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "rect": {
+            "x": 20,
+            "y": 21.5,
+            "width": 133.953125,
+            "height": 34,
+            "bottom": 55.5,
+            "right": 153.953125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "soundBtn",
+          "disabled": false,
+          "rect": {
+            "x": 297,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 330
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "menuBtn",
+          "disabled": false,
+          "rect": {
+            "x": 337,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 370
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "historyBtn",
+          "disabled": false,
+          "rect": {
+            "x": 41,
+            "y": 783,
+            "width": 53.3125,
+            "height": 25,
+            "bottom": 808,
+            "right": 94.3125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "nextBtn",
+          "disabled": false,
+          "rect": {
+            "x": 285.515625,
+            "y": 778,
+            "width": 63.484375,
+            "height": 35,
+            "bottom": 813,
+            "right": 349
+          },
+          "scrollParents": []
+        }
+      ],
+      "surfaces": [
+        {
+          "rect": {
+            "x": -469.640625,
+            "y": -21.09375,
+            "width": 1329.296875,
+            "height": 886.1875,
+            "bottom": 865.09375,
+            "right": 859.65625
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 844,
+            "bottom": 844,
+            "right": 390
+          },
+          "backgroundSize": "2658.6px 1772.4px",
+          "backgroundPosition": "-1329.3px 0px",
+          "key": "frog"
+        },
+        {
+          "rect": {
+            "x": 0,
+            "y": 119.921875,
+            "width": 390,
+            "height": 260,
+            "bottom": 379.921875,
+            "right": 390
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 844,
+            "bottom": 844,
+            "right": 390
+          },
+          "backgroundSize": "780px 520px",
+          "backgroundPosition": "-390px 0px",
+          "key": "frog"
+        }
+      ],
+      "text": {
+        "length": 259,
+        "clientHeight": 269,
+        "scrollHeight": 269
+      },
+      "dialogue": {
+        "x": 15,
+        "y": 427.84375,
+        "width": 360,
+        "height": 396.15625,
+        "bottom": 824,
+        "right": 375
+      },
+      "end": {
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "inaccessible": [],
+      "horizontalPageOverflow": false
+    },
+    {
+      "viewport": "mobile",
+      "label": "choice",
+      "screenshot": "qa/choice-mobile.png",
+      "screen": "game",
+      "current": "hat-choice",
+      "body": {
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "width": 390,
+        "height": 844
+      },
+      "buttons": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "rect": {
+            "x": 20,
+            "y": 21.5,
+            "width": 133.953125,
+            "height": 34,
+            "bottom": 55.5,
+            "right": 153.953125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "soundBtn",
+          "disabled": false,
+          "rect": {
+            "x": 297,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 330
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "menuBtn",
+          "disabled": false,
+          "rect": {
+            "x": 337,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 370
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "0",
+          "disabled": false,
+          "rect": {
+            "x": 33,
+            "y": 516,
+            "width": 324,
+            "height": 80,
+            "bottom": 596,
+            "right": 357
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "1",
+          "disabled": false,
+          "rect": {
+            "x": 33,
+            "y": 603,
+            "width": 324,
+            "height": 80,
+            "bottom": 683,
+            "right": 357
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "2",
+          "disabled": false,
+          "rect": {
+            "x": 33,
+            "y": 690,
+            "width": 324,
+            "height": 80,
+            "bottom": 770,
+            "right": 357
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "historyBtn",
+          "disabled": false,
+          "rect": {
+            "x": 33,
+            "y": 790,
+            "width": 53.3125,
+            "height": 25,
+            "bottom": 815,
+            "right": 86.3125
+          },
+          "scrollParents": []
+        }
+      ],
+      "surfaces": [
+        {
+          "rect": {
+            "x": -469.640625,
+            "y": -21.09375,
+            "width": 1329.296875,
+            "height": 886.1875,
+            "bottom": 865.09375,
+            "right": 859.65625
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 844,
+            "bottom": 844,
+            "right": 390
+          },
+          "backgroundSize": "2658.6px 1772.4px",
+          "backgroundPosition": "0px 0px",
+          "key": "hats"
+        },
+        {
+          "rect": {
+            "x": 0,
+            "y": 146.5,
+            "width": 390,
+            "height": 260,
+            "bottom": 406.5,
+            "right": 390
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 844,
+            "bottom": 844,
+            "right": 390
+          },
+          "backgroundSize": "780px 520px",
+          "backgroundPosition": "0px 0px",
+          "key": "hats"
+        }
+      ],
+      "text": {
+        "length": 0,
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "dialogue": {
+        "x": 15,
+        "y": 481,
+        "width": 360,
+        "height": 343,
+        "bottom": 824,
+        "right": 375
+      },
+      "end": {
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "inaccessible": [],
+      "horizontalPageOverflow": false
+    },
+    {
+      "viewport": "mobile",
+      "label": "end",
+      "screenshot": "qa/end-mobile.png",
+      "screen": "end",
+      "current": "p341",
+      "body": {
+        "scrollWidth": 390,
+        "scrollHeight": 844,
+        "width": 390,
+        "height": 844
+      },
+      "buttons": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "rect": {
+            "x": 20,
+            "y": 21.5,
+            "width": 133.953125,
+            "height": 34,
+            "bottom": 55.5,
+            "right": 153.953125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "soundBtn",
+          "disabled": false,
+          "rect": {
+            "x": 297,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 330
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "menuBtn",
+          "disabled": false,
+          "rect": {
+            "x": 337,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 370
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "restartBtn",
+          "disabled": false,
+          "rect": {
+            "x": 92.34375,
+            "y": 643.296875,
+            "width": 205.3125,
+            "height": 50,
+            "bottom": 693.296875,
+            "right": 297.65625
+          },
+          "scrollParents": [
+            {
+              "tag": "endScreen",
+              "rect": {
+                "x": 0,
+                "y": 77,
+                "width": 390,
+                "height": 767,
+                "bottom": 844,
+                "right": 390
+              },
+              "x": false,
+              "y": false
+            }
+          ]
+        }
+      ],
+      "surfaces": [
+        {
+          "rect": {
+            "x": -438,
+            "y": 0,
+            "width": 1266,
+            "height": 844,
+            "bottom": 844,
+            "right": 828
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 844,
+            "bottom": 844,
+            "right": 390
+          },
+          "backgroundSize": "2532px 1688px",
+          "backgroundPosition": "0px -844px",
+          "key": "congratulations"
+        }
+      ],
+      "text": {
+        "length": 0,
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "dialogue": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "end": {
+        "clientHeight": 767,
+        "scrollHeight": 767
+      },
+      "inaccessible": [],
+      "horizontalPageOverflow": false
+    },
+    {
+      "viewport": "narrow",
+      "label": "title",
+      "screenshot": "qa/title-narrow.png",
+      "screen": "title",
+      "current": "p002",
+      "body": {
+        "scrollWidth": 320,
+        "scrollHeight": 667,
+        "width": 320,
+        "height": 667
+      },
+      "buttons": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "rect": {
+            "x": 20,
+            "y": 21.5,
+            "width": 133.953125,
+            "height": 34,
+            "bottom": 55.5,
+            "right": 153.953125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "soundBtn",
+          "disabled": false,
+          "rect": {
+            "x": 227,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 260
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "menuBtn",
+          "disabled": false,
+          "rect": {
+            "x": 267,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 300
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "startBtn",
+          "disabled": false,
+          "rect": {
+            "x": 26,
+            "y": 548.40625,
+            "width": 191.78125,
+            "height": 50,
+            "bottom": 598.40625,
+            "right": 217.78125
+          },
+          "scrollParents": []
+        }
+      ],
+      "surfaces": [
+        {
+          "rect": {
+            "x": -469.53125,
+            "y": 0,
+            "width": 1000.5,
+            "height": 667,
+            "bottom": 667,
+            "right": 530.96875
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 320,
+            "height": 667,
+            "bottom": 667,
+            "right": 320
+          },
+          "backgroundSize": "1000.5px 667px",
+          "backgroundPosition": "0px 0px",
+          "key": "title"
+        }
+      ],
+      "text": {
+        "length": 0,
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "dialogue": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "end": {
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "inaccessible": [],
+      "horizontalPageOverflow": false
+    },
+    {
+      "viewport": "narrow",
+      "label": "outfits",
+      "screenshot": "qa/outfits-narrow.png",
+      "screen": "outfits",
+      "current": "outfits",
+      "body": {
+        "scrollWidth": 320,
+        "scrollHeight": 667,
+        "width": 320,
+        "height": 667
+      },
+      "buttons": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "rect": {
+            "x": 20,
+            "y": 21.5,
+            "width": 133.953125,
+            "height": 34,
+            "bottom": 55.5,
+            "right": 153.953125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "soundBtn",
+          "disabled": false,
+          "rect": {
+            "x": 227,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 260
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "menuBtn",
+          "disabled": false,
+          "rect": {
+            "x": 267,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 300
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "forest",
+          "disabled": false,
+          "rect": {
+            "x": 27,
+            "y": 205.171875,
+            "width": 212.796875,
+            "height": 499.1875,
+            "bottom": 704.359375,
+            "right": 239.796875
+          },
+          "scrollParents": [
+            {
+              "tag": "outfitCards",
+              "rect": {
+                "x": 0,
+                "y": 205.171875,
+                "width": 320,
+                "height": 514.1875,
+                "bottom": 719.359375,
+                "right": 320
+              },
+              "x": true,
+              "y": false
+            },
+            {
+              "tag": "outfitScreen",
+              "rect": {
+                "x": 0,
+                "y": 77,
+                "width": 320,
+                "height": 590,
+                "bottom": 667,
+                "right": 320
+              },
+              "x": false,
+              "y": true
+            }
+          ]
+        },
+        {
+          "id": "wonderland",
+          "disabled": false,
+          "rect": {
+            "x": 254.796875,
+            "y": 205.171875,
+            "width": 212.796875,
+            "height": 499.1875,
+            "bottom": 704.359375,
+            "right": 467.59375
+          },
+          "scrollParents": [
+            {
+              "tag": "outfitCards",
+              "rect": {
+                "x": 0,
+                "y": 205.171875,
+                "width": 320,
+                "height": 514.1875,
+                "bottom": 719.359375,
+                "right": 320
+              },
+              "x": true,
+              "y": false
+            },
+            {
+              "tag": "outfitScreen",
+              "rect": {
+                "x": 0,
+                "y": 77,
+                "width": 320,
+                "height": 590,
+                "bottom": 667,
+                "right": 320
+              },
+              "x": false,
+              "y": true
+            }
+          ]
+        },
+        {
+          "id": "versailles",
+          "disabled": false,
+          "rect": {
+            "x": 482.59375,
+            "y": 205.171875,
+            "width": 212.796875,
+            "height": 499.1875,
+            "bottom": 704.359375,
+            "right": 695.390625
+          },
+          "scrollParents": [
+            {
+              "tag": "outfitCards",
+              "rect": {
+                "x": 0,
+                "y": 205.171875,
+                "width": 320,
+                "height": 514.1875,
+                "bottom": 719.359375,
+                "right": 320
+              },
+              "x": true,
+              "y": false
+            },
+            {
+              "tag": "outfitScreen",
+              "rect": {
+                "x": 0,
+                "y": 77,
+                "width": 320,
+                "height": 590,
+                "bottom": 667,
+                "right": 320
+              },
+              "x": false,
+              "y": true
+            }
+          ]
+        }
+      ],
+      "surfaces": [
+        {
+          "rect": {
+            "x": -340.25,
+            "y": 0,
+            "width": 1000.5,
+            "height": 667,
+            "bottom": 667,
+            "right": 660.25
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 320,
+            "height": 667,
+            "bottom": 667,
+            "right": 320
+          },
+          "backgroundSize": "1000.5px 667px",
+          "backgroundPosition": "0px 0px",
+          "key": "outfits"
+        }
+      ],
+      "text": {
+        "length": 0,
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "dialogue": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "end": {
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "inaccessible": [],
+      "horizontalPageOverflow": false
+    },
+    {
+      "viewport": "narrow",
+      "label": "dialogue",
+      "screenshot": "qa/dialogue-narrow.png",
+      "screen": "game",
+      "current": "p203",
+      "body": {
+        "scrollWidth": 320,
+        "scrollHeight": 667,
+        "width": 320,
+        "height": 667
+      },
+      "buttons": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "rect": {
+            "x": 20,
+            "y": 21.5,
+            "width": 133.953125,
+            "height": 34,
+            "bottom": 55.5,
+            "right": 153.953125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "soundBtn",
+          "disabled": false,
+          "rect": {
+            "x": 227,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 260
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "menuBtn",
+          "disabled": false,
+          "rect": {
+            "x": 267,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 300
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "historyBtn",
+          "disabled": false,
+          "rect": {
+            "x": 37,
+            "y": 607,
+            "width": 53.3125,
+            "height": 25,
+            "bottom": 632,
+            "right": 90.3125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "nextBtn",
+          "disabled": false,
+          "rect": {
+            "x": 219.515625,
+            "y": 602,
+            "width": 63.484375,
+            "height": 35,
+            "bottom": 637,
+            "right": 283
+          },
+          "scrollParents": []
+        }
+      ],
+      "surfaces": [
+        {
+          "rect": {
+            "x": -365.25,
+            "y": -16.671875,
+            "width": 1050.515625,
+            "height": 700.34375,
+            "bottom": 683.671875,
+            "right": 685.265625
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 320,
+            "height": 667,
+            "bottom": 667,
+            "right": 320
+          },
+          "backgroundSize": "2101.05px 1400.7px",
+          "backgroundPosition": "-1050.53px 0px",
+          "key": "mug"
+        },
+        {
+          "rect": {
+            "x": 0,
+            "y": 101.328125,
+            "width": 320,
+            "height": 213.328125,
+            "bottom": 314.65625,
+            "right": 320
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 320,
+            "height": 667,
+            "bottom": 667,
+            "right": 320
+          },
+          "backgroundSize": "640px 426.667px",
+          "backgroundPosition": "-320px 0px",
+          "key": "mug"
+        }
+      ],
+      "text": {
+        "length": 178,
+        "clientHeight": 182,
+        "scrollHeight": 182
+      },
+      "dialogue": {
+        "x": 15,
+        "y": 344,
+        "width": 290,
+        "height": 303,
+        "bottom": 647,
+        "right": 305
+      },
+      "end": {
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "inaccessible": [],
+      "horizontalPageOverflow": false
+    },
+    {
+      "viewport": "narrow",
+      "label": "system",
+      "screenshot": "qa/system-narrow.png",
+      "screen": "game",
+      "current": "p040",
+      "body": {
+        "scrollWidth": 320,
+        "scrollHeight": 667,
+        "width": 320,
+        "height": 667
+      },
+      "buttons": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "rect": {
+            "x": 20,
+            "y": 21.5,
+            "width": 133.953125,
+            "height": 34,
+            "bottom": 55.5,
+            "right": 153.953125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "soundBtn",
+          "disabled": false,
+          "rect": {
+            "x": 227,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 260
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "menuBtn",
+          "disabled": false,
+          "rect": {
+            "x": 267,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 300
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "historyBtn",
+          "disabled": false,
+          "rect": {
+            "x": 41,
+            "y": 606,
+            "width": 53.3125,
+            "height": 25,
+            "bottom": 631,
+            "right": 94.3125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "nextBtn",
+          "disabled": false,
+          "rect": {
+            "x": 215.515625,
+            "y": 601,
+            "width": 63.484375,
+            "height": 35,
+            "bottom": 636,
+            "right": 279
+          },
+          "scrollParents": []
+        }
+      ],
+      "surfaces": [
+        {
+          "rect": {
+            "x": -365.25,
+            "y": -16.671875,
+            "width": 1050.515625,
+            "height": 700.34375,
+            "bottom": 683.671875,
+            "right": 685.265625
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 320,
+            "height": 667,
+            "bottom": 667,
+            "right": 320
+          },
+          "backgroundSize": "2101.05px 1400.7px",
+          "backgroundPosition": "-1050.53px 0px",
+          "key": "frog"
+        },
+        {
+          "rect": {
+            "x": 0,
+            "y": 90,
+            "width": 320,
+            "height": 213.328125,
+            "bottom": 303.328125,
+            "right": 320
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 320,
+            "height": 667,
+            "bottom": 667,
+            "right": 320
+          },
+          "backgroundSize": "640px 426.667px",
+          "backgroundPosition": "-320px 0px",
+          "key": "frog"
+        }
+      ],
+      "text": {
+        "length": 153,
+        "clientHeight": 220,
+        "scrollHeight": 220
+      },
+      "dialogue": {
+        "x": 15,
+        "y": 299.78125,
+        "width": 290,
+        "height": 347.21875,
+        "bottom": 647,
+        "right": 305
+      },
+      "end": {
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "inaccessible": [],
+      "horizontalPageOverflow": false
+    },
+    {
+      "viewport": "narrow",
+      "label": "choice",
+      "screenshot": "qa/choice-narrow.png",
+      "screen": "game",
+      "current": "hat-choice",
+      "body": {
+        "scrollWidth": 320,
+        "scrollHeight": 667,
+        "width": 320,
+        "height": 667
+      },
+      "buttons": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "rect": {
+            "x": 20,
+            "y": 21.5,
+            "width": 133.953125,
+            "height": 34,
+            "bottom": 55.5,
+            "right": 153.953125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "soundBtn",
+          "disabled": false,
+          "rect": {
+            "x": 227,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 260
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "menuBtn",
+          "disabled": false,
+          "rect": {
+            "x": 267,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 300
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "0",
+          "disabled": false,
+          "rect": {
+            "x": 33,
+            "y": 309.75,
+            "width": 254,
+            "height": 80,
+            "bottom": 389.75,
+            "right": 287
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "1",
+          "disabled": false,
+          "rect": {
+            "x": 33,
+            "y": 396.75,
+            "width": 254,
+            "height": 101.375,
+            "bottom": 498.125,
+            "right": 287
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "2",
+          "disabled": false,
+          "rect": {
+            "x": 33,
+            "y": 505.125,
+            "width": 254,
+            "height": 87.875,
+            "bottom": 593,
+            "right": 287
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "historyBtn",
+          "disabled": false,
+          "rect": {
+            "x": 33,
+            "y": 613,
+            "width": 53.3125,
+            "height": 25,
+            "bottom": 638,
+            "right": 86.3125
+          },
+          "scrollParents": []
+        }
+      ],
+      "surfaces": [
+        {
+          "rect": {
+            "x": -365.25,
+            "y": -16.671875,
+            "width": 1050.515625,
+            "height": 700.34375,
+            "bottom": 683.671875,
+            "right": 685.265625
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 320,
+            "height": 667,
+            "bottom": 667,
+            "right": 320
+          },
+          "backgroundSize": "2101.05px 1400.7px",
+          "backgroundPosition": "0px 0px",
+          "key": "hats"
+        },
+        {
+          "rect": {
+            "x": 0,
+            "y": 90,
+            "width": 320,
+            "height": 213.328125,
+            "bottom": 303.328125,
+            "right": 320
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 320,
+            "height": 667,
+            "bottom": 667,
+            "right": 320
+          },
+          "backgroundSize": "640px 426.667px",
+          "backgroundPosition": "0px 0px",
+          "key": "hats"
+        }
+      ],
+      "text": {
+        "length": 0,
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "dialogue": {
+        "x": 15,
+        "y": 274.75,
+        "width": 290,
+        "height": 372.25,
+        "bottom": 647,
+        "right": 305
+      },
+      "end": {
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "inaccessible": [],
+      "horizontalPageOverflow": false
+    },
+    {
+      "viewport": "narrow",
+      "label": "end",
+      "screenshot": "qa/end-narrow.png",
+      "screen": "end",
+      "current": "p341",
+      "body": {
+        "scrollWidth": 320,
+        "scrollHeight": 667,
+        "width": 320,
+        "height": 667
+      },
+      "buttons": [
+        {
+          "id": "homeBtn",
+          "disabled": false,
+          "rect": {
+            "x": 20,
+            "y": 21.5,
+            "width": 133.953125,
+            "height": 34,
+            "bottom": 55.5,
+            "right": 153.953125
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "soundBtn",
+          "disabled": false,
+          "rect": {
+            "x": 227,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 260
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "menuBtn",
+          "disabled": false,
+          "rect": {
+            "x": 267,
+            "y": 22,
+            "width": 33,
+            "height": 33,
+            "bottom": 55,
+            "right": 300
+          },
+          "scrollParents": []
+        },
+        {
+          "id": "restartBtn",
+          "disabled": false,
+          "rect": {
+            "x": 57.34375,
+            "y": 752.296875,
+            "width": 205.3125,
+            "height": 50,
+            "bottom": 802.296875,
+            "right": 262.65625
+          },
+          "scrollParents": [
+            {
+              "tag": "endScreen",
+              "rect": {
+                "x": 0,
+                "y": 77,
+                "width": 320,
+                "height": 590,
+                "bottom": 667,
+                "right": 320
+              },
+              "x": false,
+              "y": true
+            }
+          ]
+        }
+      ],
+      "surfaces": [
+        {
+          "rect": {
+            "x": -340.25,
+            "y": 0,
+            "width": 1000.5,
+            "height": 667,
+            "bottom": 667,
+            "right": 660.25
+          },
+          "parent": {
+            "x": 0,
+            "y": 0,
+            "width": 320,
+            "height": 667,
+            "bottom": 667,
+            "right": 320
+          },
+          "backgroundSize": "2001px 1334px",
+          "backgroundPosition": "0px -667px",
+          "key": "congratulations"
+        }
+      ],
+      "text": {
+        "length": 0,
+        "clientHeight": 0,
+        "scrollHeight": 0
+      },
+      "dialogue": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "bottom": 0,
+        "right": 0
+      },
+      "end": {
+        "clientHeight": 590,
+        "scrollHeight": 833
+      },
+      "inaccessible": [],
+      "horizontalPageOverflow": false
+    }
+  ],
+  "errors": [],
+  "pagination": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "checkedNodes": 143,
+      "totalPages": 143,
+      "paginatedNodes": [],
+      "failures": []
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "checkedNodes": 143,
+      "totalPages": 144,
+      "paginatedNodes": [
+        {
+          "node": "p040",
+          "pages": 2,
+          "textPreservedExactly": true
+        }
+      ],
+      "failures": []
+    },
+    {
+      "viewport": {
+        "width": 320,
+        "height": 667
+      },
+      "checkedNodes": 143,
+      "totalPages": 144,
+      "paginatedNodes": [
+        {
+          "node": "p040",
+          "pages": 2,
+          "textPreservedExactly": true
+        }
+      ],
+      "failures": []
+    }
+  ],
+  "status": "PASS",
+  "indexSha256After": "ef673374ad70799fdaa2aad8b44c7a4b8590aadc3e7c1ac68d892a589f2f033e",
+  "previewSha256": "ef673374ad70799fdaa2aad8b44c7a4b8590aadc3e7c1ac68d892a589f2f033e",
+  "textScrollRequired": [],
+  "verificationScope": "Geometry, button accessibility, page JavaScript errors, outfit scrolling and restart. Text pagination and visual fidelity are reviewed separately."
+}

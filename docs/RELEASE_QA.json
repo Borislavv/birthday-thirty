@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "revision": "2026-11-04-wording-v2",
+  "sha256": "ef673374ad70799fdaa2aad8b44c7a4b8590aadc3e7c1ac68d892a589f2f033e",
+  "reports": {
+    "QA_ROUTES.json": "PASS",
+    "QA_RESPONSIVE.json": "PASS",
+    "QA_REVISION.json": "PASS"
+  },
+  "zipVerified": true,
+  "protectedFilesUnchanged": 37,
+  "embeddedImagesUnchanged": true,
+  "cssUnchanged": true,
+  "mechanicsAndArtBindingsUnchanged": true,
+  "stableNodes": 158,
+  "fullPaths": 14,
+  "wrongAnswers": 10,
+  "royalCombinations": 12,
+  "paginationChecks": 429,
+  "viewports": [
+    "1440×1000",
+    "390×844",
+    "320×667"
+  ],
+  "legacySavesMigrated": true,
+  "sourceNonblankLines": 351,
+  "externalDependencies": 0,
+  "files": [
+    "index.html",
+    "Tanya30-updated.zip"
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "purpose": "Protected image, music and art-map baseline before text-only revision",
+  "recordedAtUTC": "2026-11-04T18:19:38.103293+00:00",
+  "root": "/Users/admin/dev/wife_game",
+  "files": {
+    "assets/characters-reference.png": {
+      "sha256": "481ad587bd3732f3f9e8ad2699d6e5e5f6ada4d305cff6e18936e3d5795b0db2",
+      "bytes": 2644451
+    },
+    "assets/cover.png": {
+      "sha256": "175237f118de0c114c18ac53dc79d950ff100303a9d2ff839e9e66b818cebe78",
+      "bytes": 2963131
+    },
+    "assets/forest-1.png": {
+      "sha256": "2a2d575db9c387a89eec1d14a6d2d58cc34e0f24a4843e4fa1e52f1c3488de82",
+      "bytes": 3771901
+    },
+    "assets/forest-2.png": {
+      "sha256": "63f1260ac8a4b897ffba35ed7f8f7ecc08a860cb4ffd05ab4ac07ca2b1f68193",
+      "bytes": 3590498
+    },
+    "assets/forest-party.png": {
+      "sha256": "4f2451d489e1b6b5be113b34fe80ba7ebfe7de57ee15d19f94aedd71ba1548f3",
+      "bytes": 3739736
+    },
+    "assets/home-1-fixed.png": {
+      "sha256": "97180eaa88cd8e4b711e811d08dac98d76a90c8fe32773aaeb73405f51df684b",
+      "bytes": 3219025
+    },
+    "assets/home-1.png": {
+      "sha256": "24f109f2eb12156928086ef3add0617e9462f84ea552166a26ade049e0adfc1a",
+      "bytes": 3555401
+    },
+    "assets/home-2-candles-out.png": {
+      "sha256": "3041f0eb0d0919ad9f23ddfa9277fd28e619db1af2b2af458ceafc929f5ffaed",
+      "bytes": 3084934
+    },
+    "assets/home-2.png": {
+      "sha256": "36dfb2b67de62242e030afe4b27c2fd9f0daa9508747b0e87a3c3698d757cb7f",
+      "bytes": 3407640
+    },
+    "assets/optimized/cover.webp": {
+      "sha256": "e102e349b6d7f66eadad12b649f7b0a9b7bbaa5823c34d1b49287aa6343a1ccd",
+      "bytes": 468038
+    },
+    "assets/optimized/forest-1.webp": {
+      "sha256": "794e6d311b1bca5af1a884aa3b9b75ff741c041d13bfa192aee57c939ffc6317",
+      "bytes": 711708
+    },
+    "assets/optimized/forest-2.webp": {
+      "sha256": "fdb936be19f766b8ed3a4805259803ad192435e5e0608560da123507f3816f92",
+      "bytes": 674060
+    },
+    "assets/optimized/forest-party.webp": {
+      "sha256": "1c80005b133b1a62b0fbcfe54e46acbc95e50cd0bd4108e4f7f933cb67824391",
+      "bytes": 738638
+    },
+    "assets/optimized/home-1-fixed.webp": {
+      "sha256": "ff8a49843d05ce5e46440c296d03b4d0015080f634f827d6e7b030738274c719",
+      "bytes": 546836
+    },
+    "assets/optimized/home-1.webp": {
+      "sha256": "5e4738724f1acb174d9723e413b1fd3a7550ebca1a8fa679f07e3e85241702bd",
+      "bytes": 630694
+    },
+    "assets/optimized/home-2-candles-out.webp": {
+      "sha256": "ede1bf66e860ee01d3601fe44e9ca55446bcafe32ca5d7729040483f38cca6ce",
+      "bytes": 513736
+    },
+    "assets/optimized/home-2.webp": {
+      "sha256": "d3eecb297967c5447d573fc1d3a2a0b77e6f0de3e74e0587de6a585cb47783d4",
+      "bytes": 601526
+    },
+    "assets/optimized/outfits.webp": {
+      "sha256": "c2ba52e6df5c20bdef35660e4b750ae398fee1932df6d462e9aeda46c802cbd7",
+      "bytes": 427630
+    },
+    "assets/optimized/palace-1.webp": {
+      "sha256": "86a20e64d75799f9308f4088bf9f7230fd3f1253053317c7b4fc9736a9f7f42e",
+      "bytes": 612100
+    },
+    "assets/optimized/palace-2.webp": {
+      "sha256": "3dc721ebf6be2d4fb4278f7d581e1b9a5a9cce5f472dfa7880513d3176c191ab",
+      "bytes": 632752
+    },
+    "assets/optimized/palace-3.webp": {
+      "sha256": "14364f217f12b0d78a114de4d4e969767be664c9b119a3114684c91192469652",
+      "bytes": 693940
+    },
+    "assets/optimized/palace-party.webp": {
+      "sha256": "922eade62b1a109555636df5338d777686a0f9d55b05ccd98a405d54177a36dc",
+      "bytes": 673774
+    },
+    "assets/optimized/wonderland-1.webp": {
+      "sha256": "fc4cdd2ad1db739e0f569aa3320aedcd1007a1979f98c204a9072167c40761b1",
+      "bytes": 601888
+    },
+    "assets/optimized/wonderland-2.webp": {
+      "sha256": "0eea94239177c4e0be40292cc4a4f46b26041ffba458a8399f66fc8a8ad9830b",
+      "bytes": 742234
+    },
+    "assets/optimized/wonderland-3.webp": {
+      "sha256": "cc37ed04200ecb27d8518491315c6192f760c10477bc774b5146006566e7c716",
+      "bytes": 592852
+    },
+    "assets/optimized/wonderland-4.webp": {
+      "sha256": "c1a464b29a54ec467f066a03a069dc98b04684a2a16f9f8696a795c323c78194",
+      "bytes": 527826
+    },
+    "assets/outfits.png": {
+      "sha256": "09bb813a2b37dc03e69a0728b5ebfba2831e1ad37d00a3d8180053463dfb4970",
+      "bytes": 2812796
+    },
+    "assets/palace-1.png": {
+      "sha256": "6a5a3aa179af415a4fcb6c6e282eab746f1b7399dcd1a22f04f7970aeff350e3",
+      "bytes": 3392442
+    },
+    "assets/palace-2.png": {
+      "sha256": "abe87a044c2e1e644fc0f7a0535bbba416601d11030a8c0fe52ad30d84ea4b2c",
+      "bytes": 3518378
+    },
+    "assets/palace-3.png": {
+      "sha256": "ccce231c0973fec4991dd6e2a84100e4f5fe1d8a247b0621321b591faf8f5b26",
+      "bytes": 3692044
+    },
+    "assets/palace-party.png": {
+      "sha256": "ddad38b88bf02600d302ac876acfa253e250486a179c82565d835db22edc85bd",
+      "bytes": 3615495
+    },
+    "assets/wonderland-1.png": {
+      "sha256": "8ea9aa2025af6e3b0c2555b95e56a2cf03aa83acc67be408466f6b70bcc84b89",
+      "bytes": 3459435
+    },
+    "assets/wonderland-2.png": {
+      "sha256": "a128d2610bd00877e4c9c66f0e704b1b4a66f8c91cabb97dbd8b7d9396fe7205",
+      "bytes": 3877643
+    },
+    "assets/wonderland-3.png": {
+      "sha256": "03ae7b94bbd37e5a063b5750fd0adad967c5af4228d54b018002e324595252f5",
+      "bytes": 3388548
+    },
+    "assets/wonderland-4.png": {
+      "sha256": "589e47267b307ba70c26fffbbb52d9fb28b4bcaf75a6ceac68cd2bba623f7b7b",
+      "bytes": 3196302
+    },
+    "js/audio.js": {
+      "sha256": "9dec814d763c6bd510ff85abeb895e8ffed37c3738f83bbf77461e09229e2597",
+      "bytes": 10166
+    },
+    "data/art-map.json": {
+      "sha256": "172c93706cc133591f1fee4de572eb194e4cc51be783d01e768c8b8407cefa76",
+      "bytes": 3396
+    }
+  }
+}

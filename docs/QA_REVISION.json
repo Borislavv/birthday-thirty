@@ -1,0 +1,41 @@
+{
+  "checkedAtUTC": "2026-11-04T18:34:08.142Z",
+  "revision": "2026-11-04-wording-v2",
+  "url": "http://127.0.0.1:8765/index.html",
+  "indexSHA256": "ef673374ad70799fdaa2aad8b44c7a4b8590aadc3e7c1ac68d892a589f2f033e",
+  "checks": {
+    "exactRevisedNodeTexts": 27,
+    "stableGraphAndGameplayNodes": 158,
+    "changedNodeMetadataExact": 31,
+    "protectedAssetAndAudioHashes": 37,
+    "embeddedImageMapSHA256": "be6a541b57e15ddb2b14ebad8627056d56c4cf8d48abca0610adac6be12ccdcf",
+    "embeddedImageMapUnchanged": true,
+    "cssUnchanged": true
+  },
+  "browser": {
+    "legacyP127": {
+      "currentPreserved": true,
+      "routeChoicesVisitedPreserved": true,
+      "changedTextOffsetReset": true,
+      "nonChoiceHistoryRebased": true,
+      "historicalChoicePreserved": true,
+      "revisedTextExact": true
+    },
+    "legacyP233": {
+      "skippedTo": "p234",
+      "previousProgressPreserved": true,
+      "removedHistoryEntryExcluded": true,
+      "noBlankRemovedScreen": true
+    },
+    "unchangedLegacyOffsetPreserved": true,
+    "allNodeTextAndOverlayChecks": 158,
+    "thirdRiddleAuthoredErrorAndRetry": {
+      "exactMessage": true,
+      "button": "Пересмотреть ответ",
+      "loopsTo": "p088",
+      "correctAnswerStillProgressesTo": "p092"
+    }
+  },
+  "errors": [],
+  "status": "PASS"
+}

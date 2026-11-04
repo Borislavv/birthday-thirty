@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#142524">
+  <link rel="icon" href="data:,">
+  <title>Таня и 30-летие, которое пошло не по плану</title>
+  <style>/*__CSS__*/</style>
+</head>
+<body>
+  <svg class="icon-definitions" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><defs>
+    <symbol id="i-sound" viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4V5Zm4 3a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/></symbol>
+    <symbol id="i-mute" viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4V5Zm5 4 5 6m0-6-5 6"/></symbol>
+    <symbol id="i-full" viewBox="0 0 24 24"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m8 0h5v-5"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M20 12H5m6-6-6 6 6 6"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 6c-3-2-6-2-9-1v14c3-1 6-1 9 1 3-2 6-2 9-1V5c-3-1-6-1-9 1v14"/></symbol>
+  </defs></svg>
+  <main id="app" data-screen="title">
+    <div class="art-layer" id="artA"></div><div class="art-layer" id="artB"></div>
+    <div class="cinematic-shade"></div><canvas id="particles" aria-hidden="true"></canvas><div id="flash" aria-hidden="true"></div><div id="sceneProp" class="scene-prop" hidden></div><div id="itemFx" aria-hidden="true"></div>
+    <header class="topbar">
+      <button class="wordmark" id="homeBtn" aria-label="Открыть меню"><span class="crest">Т</span><span>ТАНИНА ИСТОРИЯ<small>ОСОБЕННЫЙ ДЕНЬ</small></span></button>
+      <div class="chapter-header"><span id="chapterName">Сказка начинается здесь</span><div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Прогресс истории"><span id="progressFill"></span></div></div>
+      <div class="toolbar">
+        <button class="icon-button" id="soundBtn" title="Включить или выключить музыку" aria-label="Включить или выключить музыку" aria-pressed="false"><svg><use href="#i-sound"/></svg></button>
+        <button class="icon-button" id="fullBtn" title="На весь экран" aria-label="На весь экран"><svg><use href="#i-full"/></svg></button>
+        <button class="icon-button" id="menuBtn" title="Меню" aria-label="Меню"><svg><use href="#i-menu"/></svg></button>
+      </div>
+    </header>
+    <section id="titleScreen" class="title-screen">
+      <div class="title-content">
+        <div class="eyebrow"><span></span> ТВОЯ СОБСТВЕННАЯ СКАЗКА <span></span></div>
+        <h1>ТАНЯ И <em>30-ЛЕТИЕ,</em><span>КОТОРОЕ ПОШЛО<br>НЕ ПО ПЛАНУ</span></h1>
+        <p class="subtitle">Интерактивная новелла · 3 сюжетные линии ·<br>1 именинница · 0 шансов на спокойный день</p>
+        <div class="title-actions"><button class="primary-button" id="startBtn">Начать историю <svg><use href="#i-arrow"/></svg></button><button class="text-button" id="resumeBtn" hidden>Продолжить историю <span>↗</span></button></div>
+        <p class="title-note">Три наряда. Три приключения. Один особенный день.</p>
+      </div>
+      <div class="edition"><span class="edition-line"></span><span>ГЛАВА, ПОСВЯЩЁННАЯ ТЕБЕ</span><b>30</b></div>
+    </section>
+    <section id="gameScreen" class="game-screen" hidden>
+      <div class="scene-caption" id="sceneCaption"></div>
+      <button id="artContinue" class="art-continue" aria-label="Продолжить сцену" hidden></button>
+      <div class="dialogue-wrap" id="dialogueWrap">
+        <div class="speaker" id="speaker"></div>
+        <article class="dialogue-card" id="dialogueCard" tabindex="0" aria-label="Реплика — нажмите, чтобы показать целиком">
+          <div class="system-ornament" aria-hidden="true">✦</div>
+          <div id="dialogueText" class="dialogue-text" aria-live="polite"></div>
+          <div id="choices" class="choices" hidden></div>
+          <div class="dialogue-bottom"><button class="quiet-button" id="historyBtn"><svg><use href="#i-book"/></svg> История</button><span id="readHint">Нажми, чтобы читать дальше</span><button id="nextBtn" class="next-button">Далее <svg><use href="#i-arrow"/></svg></button></div>
+        </article>
+      </div>
+    </section>
+    <section id="outfitScreen" class="outfit-screen" hidden>
+      <div class="wardrobe-heading"><div class="eyebrow">ПЕРВЫЙ ВЫБОР — ЗА ТОБОЙ</div><h2>Выбор наряда</h2><p id="outfitPrompt"></p></div>
+      <div class="outfit-cards" id="outfitCards"></div>
+      <div class="wardrobe-hint">Выбери наряд, чтобы открыть свою историю</div>
+    </section>
+    <section id="endScreen" class="end-screen" hidden>
+      <div class="end-card"><div class="eyebrow">ТРИДЦАТЬ — ЭТО ТОЛЬКО НАЧАЛО</div><div class="end-number">30</div><h2 id="endHeading"></h2><div id="endText"></div><button class="primary-button" id="restartBtn">Пройти историю заново <svg><use href="#i-arrow"/></svg></button><p id="endFootnote" class="end-footnote"></p></div>
+    </section>
+    <div id="toast" class="toast" role="status"></div>
+  </main>
+  <dialog id="menuDialog"><div class="modal-head"><span class="eyebrow">ТВОЯ ИСТОРИЯ</span><button class="icon-button dark" data-close aria-label="Закрыть меню"><svg><use href="#i-close"/></svg></button></div><h2>Немного волшебства</h2><p class="settings-note">Прогресс сохраняется автоматически в этом браузере.</p><label class="setting-row"><span>Громкость музыки</span><input id="volumeInput" type="range" min="0" max="100" value="35" aria-label="Громкость музыки"></label><label class="setting-row"><span>Анимация текста</span><input id="typingInput" type="checkbox" checked></label><label class="setting-row"><span>Движение и частицы</span><input id="motionInput" type="checkbox" checked></label><button class="menu-action" id="skipReadBtn">Пропустить прочитанные реплики <span>→</span></button><button class="menu-action" id="returnTitleBtn">На титульный экран <span>→</span></button><button class="menu-action danger" id="newGameBtn">Начать заново <span>↺</span></button><button class="primary-button modal-return" data-close>Вернуться в историю</button></dialog>
+  <dialog id="historyDialog"><div class="modal-head"><span class="eyebrow">ПРОЧИТАННЫЕ СТРАНИЦЫ</span><button class="icon-button dark" data-close aria-label="Закрыть историю"><svg><use href="#i-close"/></svg></button></div><h2>История</h2><div id="historyContent"></div></dialog>
+  <dialog id="restartDialog"><div class="modal-head"><span class="eyebrow">НОВОЕ ПРИКЛЮЧЕНИЕ</span><button class="icon-button dark" data-close aria-label="Закрыть"><svg><use href="#i-close"/></svg></button></div><h2>Начать историю заново?</h2><p>Текущий прогресс и выборы будут сброшены. Ты снова сможешь выбрать любой наряд.</p><button id="confirmRestartBtn" class="primary-button modal-return">Начать заново</button><button class="text-button dark-text" data-close>Продолжить текущую историю</button></dialog>
+  <script>/*__STORY__*/</script><script>/*__ART__*/</script><script>/*__AUDIO__*/</script><script>/*__ENGINE__*/</script>
+</body>
+</html>

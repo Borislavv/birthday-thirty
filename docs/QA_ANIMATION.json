@@ -1,0 +1,20 @@
+{
+  "result": "PASS",
+  "indexSHA256": "c2549ab245e3bc39be9ff3a22a165421cb94910321fbca16eb7b30df0cc89c43",
+  "bytes": 13245205,
+  "browser": "Google Chrome headless",
+  "viewport": "390x844",
+  "source": "http://127.0.0.1:8765/",
+  "normalMotion": true,
+  "checks": [
+    "p054",
+    "p078",
+    "p250",
+    "p132",
+    "hat-choice",
+    "candles",
+    "p009"
+  ],
+  "consoleErrors": [],
+  "failures": []
+}
